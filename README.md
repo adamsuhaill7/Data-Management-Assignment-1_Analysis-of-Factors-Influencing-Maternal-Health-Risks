@@ -3,7 +3,7 @@
 
 ## Course Information
 - **Course**: STQD6324 Data Management
-- **Topic**: Project 2
+- **Topic**: Assignment 1
 - **Student ID**: Adam Suhail Bin Shahril (P153109)
 
 ## Project Title
