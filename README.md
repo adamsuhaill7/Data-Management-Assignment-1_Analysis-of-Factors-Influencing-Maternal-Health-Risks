@@ -57,14 +57,54 @@ In recent years, maternal health has garnered increasing attention, particularly
 
 By exploring these problems and guiding questions, this analysis aims to provide valuable insights into the health challenges faced by mothers in rural Bangladesh, emphasizing the need for targeted interventions to improve maternal health and contribute to the ongoing discourse surrounding maternal care globally.
 
-## Analysis Overview
+## Analysis Overview:
+
 In this analysis, I utilized a Jupyter Notebook within a Hadoop environment, managed via Oracle VirtualBox. The process began by setting up a local Hadoop cluster to facilitate big data processing. Below are the detailed steps I followed to connect Jupyter Notebook to the Hive database and perform visualizations:
 
-### Creating a New Conda Environment
-I created a new Conda environment with the necessary dependencies:
-```bash
-conda create -n <env_name> python=3.8 -y
-conda activate <env_name>
-conda install pandas numpy matplotlib seaborn scikit-learn jupyter
-pip install pyhive thrift thrift-sasl pure-sasl impyla
-conda install -c conda-forge sasl jupyterlab openpyxl plotly
+1. **Creating a New Conda Environment**:
+   - I created a new Conda environment with the necessary dependencies:
+     ```bash
+     conda create -n <env_name> python=3.8 -y
+     conda activate <env_name>
+     conda install pandas numpy matplotlib seaborn scikit-learn jupyter
+     pip install pyhive thrift thrift-sasl pure-sasl impyla
+     conda install -c conda-forge sasl jupyterlab openpyxl plotly
+     ```
+
+2. **Connecting Local Machine to VM**:
+   - I connected my local machine to the VirtualBox using SSH:
+     ```bash
+     ssh -L 10000:localhost:10000 maria_dev@127.0.0.1 -p 2222
+     ```
+
+3. **Launching Jupyter Notebook**:
+   - To run Jupyter Notebook, I opened an Anaconda terminal and executed:
+     ```bash
+     conda activate <env_name>
+     start jupyter notebook
+     ```
+
+4. **Connecting to Hive Database**:
+   - In a Jupyter Notebook cell, I used the following code to connect to the Hive database:
+     ```python
+     from impala.dbapi import connect
+
+     conn = connect(
+         host='127.0.0.1',
+         port=10000,
+         user='maria_dev',
+         database='default',
+         auth_mechanism='PLAIN'
+     )
+     cursor = conn.cursor()
+     cursor.execute('SHOW TABLES')
+     print(cursor.fetchall())
+     ```
+
+5. **Data Cleaning**:
+   - Once connected, I performed various data cleaning tasks within the Jupyter Notebook. This included handling missing values, filtering outliers, and ensuring the data types were correctly assigned for analysis.
+
+6. **Data Visualization**:
+   - After the data cleaning process, I created several visualizations to analyze the relationships and distributions of key variables in the dataset. These visualizations provided valuable insights into maternal health indicators.
+
+This structured approach facilitated efficient data management and prepared the dataset for subsequent analysis, ensuring high-quality insights could be derived from the data.
