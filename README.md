@@ -105,22 +105,28 @@ This analysis was conducted using a Jupyter Notebook within a Hadoop environment
 6. **Data Visualization**:
    - After the data cleaning process, I created several visualizations to analyze the relationships and distributions of key variables in the dataset. These visualizations provided valuable insights into maternal health indicators.
 
-This structured approach facilitated efficient data management and prepared the dataset for subsequent analysis, ensuring high-quality insights could be derived from the data.
-
 ## 📊 Data Visualizations
 Here are the visualizations derived from the analysis:
 
-| Visualization 1 | Visualization 2 |
-|------------------|------------------|
-| ![Visualization 1](Visualization 1.png) | ![Visualization 2](Visualization 2.png) |
+### Visualization 1
+![Visualization 1](Visualization%201.png)
 
-| Visualization 3 | Visualization 4 |
-|------------------|------------------|
-| ![Visualization 3](Visualization 3.png) | ![Visualization 4](Visualization 4.png) |
+### Visualization 2
+![Visualization 2](Visualization%202.png)
 
-| Visualization 5 | Visualization 6 |
-|------------------|------------------|
-| ![Visualization 5](Visualization 5.png) | ![Visualization 6](Visualization 6.png) |
+### Visualization 3
+![Visualization 3](Visualization%203.png)
+
+### Visualization 4
+![Visualization 4](Visualization%204.png)
+
+### Visualization 5
+![Visualization 5](Visualization%205.png)
+
+### Visualization 6
+![Visualization 6](Visualization%206.png)
+
+This structured approach facilitated efficient data management and prepared the dataset for subsequent analysis, ensuring high-quality insights could be derived from the data.
 
 ## 📋 Conclusion
 The analysis of maternal health risks in rural Bangladesh highlights significant health indicators that can impact pregnancy outcomes. Through this project, I aimed to uncover trends and correlations that can inform healthcare interventions. The insights gained from the visualizations underscore the importance of continuous monitoring and support for maternal health.
