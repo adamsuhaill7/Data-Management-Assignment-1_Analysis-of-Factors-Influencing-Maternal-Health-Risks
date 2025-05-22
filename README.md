@@ -126,10 +126,10 @@ Here are the visualizations derived from the analysis:
 ### Visualization 6
 ![Visualization 6](Visualization%206.png)
 
-This structured approach facilitated efficient data management and prepared the dataset for subsequent analysis, ensuring high-quality insights could be derived from the data.
+This structured approach facilitated efficient data management and prepared the dataset for subsequent analysis, ensuring high-quality insights could be derived from the data. For detailed explanation and insights regarding the interpretation of the insights, please refer to the Jupyter Notebook associated with this analysis.
 
 ## 📋 Conclusion
-The analysis of maternal health risks in rural Bangladesh highlights significant health indicators that can impact pregnancy outcomes. Through this project, I aimed to uncover trends and correlations that can inform healthcare interventions. The insights gained from the visualizations underscore the importance of continuous monitoring and support for maternal health. For a more detailed conclusion and insights, please refer to the Jupyter Notebook associated with this analysis.
+The analysis of maternal health risks in rural Bangladesh highlights significant health indicators that can impact pregnancy outcomes. Through this project, I aimed to uncover trends and correlations that can inform healthcare interventions. The insights gained from the visualizations underscore the importance of continuous monitoring and support for maternal health. For a more detailed conclusion, please refer to the Jupyter Notebook associated with this analysis.
 
 ## 📄 References
 
