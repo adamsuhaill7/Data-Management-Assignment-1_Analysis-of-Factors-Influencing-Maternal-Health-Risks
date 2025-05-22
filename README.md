@@ -1,65 +1,63 @@
-# Data-Management-Assignment-1_Analysis-of-Factors-Influencing-Maternal-Health-Risks
-# Analysis of Factors Influencing Maternal Health Risks in Rural Bangladesh
+# 📊 Data Management Assignment 1: Analysis of Factors Influencing Maternal Health Risks
 
-## Course Information
+## 📚 Course Information
 - **Course**: STQD6324 Data Management
 - **Topic**: Assignment 1
 - **Student ID**: Adam Suhail Bin Shahril (P153109)
 
-## Project Title
+## 📝 Project Title
 **"Analysis of Factors Influencing Maternal Health Risks in Rural Bangladesh: A Study on Blood Pressure, Blood Sugar, and Heart Rate"**
 
-## Dataset Background
-Hello GitHub enthusiasts! My name is Adam, and I'm a master's student in Data Science. For my second entry in my GitHub repository, I have chosen to explore and analyze a new dataset related to maternal health, as it is an increasingly critical issue worldwide. The dataset, collected from rural Bangladesh, focuses on maternal health risks and contains 1,013 records. Each record captures a range of significant health indicators that can influence maternal outcomes globally.
+## 📊 Dataset Background
+Hello GitHub enthusiasts! I'm Adam, a master's student in Data Science. For my second GitHub entry, I am exploring a dataset related to maternal health, an increasingly critical global issue. This dataset, collected from rural Bangladesh, focuses on maternal health risks and contains **1,013 records** of significant health indicators impacting maternal outcomes.
 
-You can access the dataset at the following link: [UCI Machine Learning Repository: Maternal Health Risk Dataset](<insert_link_here>)
+You can access the dataset here: [UCI Machine Learning Repository: Maternal Health Risk Dataset](<insert_link_here>)
 
-### Key Attributes in the Dataset
-- **Age**: The age of the women during pregnancy (in years).
-- **SystolicBP**: Systolic blood pressure measured in mmHg, a crucial indicator during pregnancy.
-- **DiastolicBP**: Diastolic blood pressure measured in mmHg, another significant attribute during pregnancy.
-- **BS**: Blood sugar levels measured in mmol/L.
-- **BodyTemp**: Body temperature measured in degrees Fahrenheit.
-- **HeartRate**: The resting heart rate measured in bpm (beats per minute).
-- **RiskLevel**: The predicted risk intensity level during pregnancy, categorized as 'low risk', 'mid risk', or 'high risk'.
+![Maternal Health](<insert_image_link_here>) <!-- Add a relevant image -->
 
-This dataset is particularly significant as it highlights the health challenges faced by pregnant women in rural Bangladesh, which resonate across different cultures and healthcare systems. By analyzing these factors, I hope to contribute to a better understanding of maternal health risks and foster discussions around necessary interventions and support systems that can benefit mothers globally.
+### 🔑 Key Attributes in the Dataset
+- **Age**: Age of women during pregnancy (in years).
+- **SystolicBP**: Systolic blood pressure (mmHg).
+- **DiastolicBP**: Diastolic blood pressure (mmHg).
+- **BS**: Blood sugar levels (mmol/L).
+- **BodyTemp**: Body temperature (°F).
+- **HeartRate**: Resting heart rate (bpm).
+- **RiskLevel**: Predicted risk intensity during pregnancy ('low risk', 'mid risk', 'high risk').
 
-## Introduction
-In today's fast-paced world, maternal health has become an increasingly pressing concern. As a student and future data scientist, I recognize the significant impact of health risks during pregnancy on mothers and their families. This analysis aims to explore the relationship between various health indicators—such as blood pressure, blood sugar levels, and heart rate—and their influence on maternal health outcomes, including risk levels during pregnancy.
+This dataset is crucial as it highlights the health challenges faced by pregnant women in rural Bangladesh, with implications across various cultures and healthcare systems. My analysis aims to enhance understanding of maternal health risks and stimulate discussions on necessary interventions.
 
-### Objectives
-- To identify trends in maternal health risks based on blood pressure, blood sugar, heart rate, and other health indicators.
-- To examine the correlations between physiological factors and the predicted risk levels during pregnancy.
-- To provide insights to inform healthcare interventions and support systems aimed at improving maternal health.
+## 🌍 Introduction
+Maternal health is a pressing global concern, significantly impacting mothers and their families. This analysis explores the relationships between health indicators—blood pressure, blood sugar levels, and heart rate—and their influence on maternal health outcomes, particularly risk levels.
 
-## Problem Statement
-In recent years, maternal health has garnered increasing attention, particularly in the context of health risks during pregnancy. This analysis seeks to address several key issues related to the well-being of mothers, focusing on how various factors—such as blood pressure, blood sugar levels, and heart rate—affect maternal health outcomes.
+### 🎯 Objectives
+- Identify trends in maternal health risks based on key health indicators.
+- Examine correlations between physiological factors and predicted risk levels during pregnancy.
+- Provide insights to inform healthcare interventions to improve maternal health.
 
-### Main Problems or Hypotheses
-- **Blood Pressure and Maternal Health**: Does a higher level of blood pressure correlate with increased risk levels during pregnancy?
+## ❓ Problem Statement
+This analysis addresses key issues related to maternal well-being, focusing on how factors like blood pressure, blood sugar levels, and heart rate affect maternal health outcomes.
 
-#### Guiding Questions
-- What is the relationship between systolic and diastolic blood pressure and the risk levels assigned to pregnant women?
-- How do these physiological measures influence overall maternal health outcomes?
+### 🔍 Main Problems or Hypotheses
+- **Blood Pressure and Maternal Health**: Does higher blood pressure correlate with increased risk levels during pregnancy?
+  - **Guiding Questions**:
+    - What is the relationship between systolic/diastolic blood pressure and risk levels?
+    - How do these measures influence overall maternal health?
 
 - **Impact of Blood Sugar Levels**: How do blood sugar levels affect maternal health indicators and risk assessments?
+  - **Guiding Questions**:
+    - How do blood sugar levels correlate with maternal health risks?
+    - What patterns emerge in analyzing blood sugar effects?
 
-#### Guiding Questions
-- How do blood sugar levels correlate with maternal health risks and reported complications?
-- What patterns emerge when analyzing the effects of blood sugar on maternal health?
+- **Heart Rate and Overall Well-Being**: How does heart rate influence maternal health indicators and risk levels?
+  - **Guiding Questions**:
+    - What is the relationship between heart rate and predicted risk levels?
+    - What interventions can be implemented for better outcomes?
 
-- **Heart Rate and Overall Well-Being**: How does heart rate influence maternal health indicators and risk levels during pregnancy?
+This analysis aims to provide valuable insights into the health challenges faced by mothers in rural Bangladesh, emphasizing the need for targeted interventions to improve maternal health.
 
-#### Guiding Questions
-- What is the relationship between heart rate and the predicted risk levels during pregnancy?
-- What interventions can be implemented to monitor and manage heart rate for better maternal health outcomes?
+## 📈 Analysis Overview
+This analysis was conducted using a Jupyter Notebook within a Hadoop environment, managed via Oracle VirtualBox. Here are the detailed steps taken:
 
-By exploring these problems and guiding questions, this analysis aims to provide valuable insights into the health challenges faced by mothers in rural Bangladesh, emphasizing the need for targeted interventions to improve maternal health and contribute to the ongoing discourse surrounding maternal care globally.
-
-## Analysis Overview:
-
-In this analysis, I utilized a Jupyter Notebook within a Hadoop environment, managed via Oracle VirtualBox. The process began by setting up a local Hadoop cluster to facilitate big data processing. Below are the detailed steps I followed to connect Jupyter Notebook to the Hive database and perform visualizations:
 
 1. **Creating a New Conda Environment**:
    - I created a new Conda environment with the necessary dependencies:
