@@ -13,7 +13,7 @@ Hello GitHub enthusiasts! I'm Adam, a master's student in Data Science. For my s
 
 You can access the dataset here: [UCI Machine Learning Repository: Maternal Health Risk Dataset](https://archive.ics.uci.edu/dataset/863/maternal+health+risk)
 
-![Maternal Health](<insert_image_link_here>) <!-- Add a relevant image -->
+![Maternal Health](maternal_health.jpg) <!-- Maternal health image -->
 
 ### 🔑 Key Attributes in the Dataset
 - **Age**: Age of women during pregnancy (in years).
