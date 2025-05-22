@@ -11,7 +11,7 @@
 ## 📊 Dataset Background
 Hello GitHub enthusiasts! I'm Adam, a master's student in Data Science. For my second GitHub entry, I am exploring a dataset related to maternal health, an increasingly critical global issue. This dataset, collected from rural Bangladesh, focuses on maternal health risks and contains **1,013 records** of significant health indicators impacting maternal outcomes.
 
-You can access the dataset here: [UCI Machine Learning Repository: Maternal Health Risk Dataset](<insert_link_here>)
+You can access the dataset here: [UCI Machine Learning Repository: Maternal Health Risk Dataset](https://archive.ics.uci.edu/dataset/863/maternal+health+risk)
 
 ![Maternal Health](<insert_image_link_here>) <!-- Add a relevant image -->
 
