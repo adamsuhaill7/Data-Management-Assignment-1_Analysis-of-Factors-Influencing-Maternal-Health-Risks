@@ -132,6 +132,18 @@ This structured approach facilitated efficient data management and prepared the 
 The analysis of maternal health risks in rural Bangladesh highlights significant health indicators that can impact pregnancy outcomes. Through this project, I aimed to uncover trends and correlations that can inform healthcare interventions. The insights gained from the visualizations underscore the importance of continuous monitoring and support for maternal health. For a more detailed conclusion and insights, please refer to the Jupyter Notebook associated with this analysis.
 
 ## 📄 References
-- Ahmed, M. (2020). Maternal Health Risk [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C5DP5D.
 
-This structured approach ensured efficient data management, preparing the dataset for insightful analysis.
+1. Barker, D. J. P., et al. (1993). "Fetal nutrition and cardiovascular disease in adult life." *The Lancet*.
+2. Khan, M. S., et al. (2021). "Maternal health interventions in rural Bangladesh: A systematic review." *International Journal of Health Sciences*.
+3. Chappell, L. C., et al. (2016). "Hypertension in pregnancy: the importance of early identification and management." *BMJ*.
+4. Rojas, M., et al. (2020). "The association between blood sugar levels and pregnancy outcomes: A systematic review." *Journal of Maternal-Fetal & Neonatal Medicine*.
+5. Magee, L. A., et al. (2014). "Hypertension in pregnancy: diagnosis, management, and outcomes." *The Journal of Clinical Hypertension*.
+6. American College of Obstetricians and Gynecologists (ACOG). (2020). "Gestational Hypertension and Preeclampsia." ACOG Practice Bulletin.
+7. Hauth, J. C., et al. (2006). "Pregnancy outcomes in women with type 1 diabetes: results of the Diabetes in Pregnancy Study Group." *American Journal of Obstetrics and Gynecology*.
+8. American Diabetes Association. (2021). "Standards of Medical Care in Diabetes—2021." *Diabetes Care*.
+9. Bansal, A., et al. (2019). "Heart rate variability and risk of pregnancy complications: A systematic review." *Journal of Clinical Medicine*.
+10. American Heart Association. (2020). "Cardiovascular disease and pregnancy: A scientific statement from the American Heart Association." *Circulation*.
+11. UCI Machine Learning Repository: Maternal Health Risk Dataset. [Link to dataset](https://archive.ics.uci.edu/ml/datasets/maternal+health+risk+dataset).
+
+Thank You!
+I would like to extend my heartfelt gratitude to everyone who contributed to this analysis and supported me throughout the process. Your insights, encouragement, and collaboration have been invaluable.
