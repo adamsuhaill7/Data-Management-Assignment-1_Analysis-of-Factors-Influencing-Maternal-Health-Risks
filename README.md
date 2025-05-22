@@ -129,7 +129,7 @@ Here are the visualizations derived from the analysis:
 This structured approach facilitated efficient data management and prepared the dataset for subsequent analysis, ensuring high-quality insights could be derived from the data.
 
 ## 📋 Conclusion
-The analysis of maternal health risks in rural Bangladesh highlights significant health indicators that can impact pregnancy outcomes. Through this project, I aimed to uncover trends and correlations that can inform healthcare interventions. The insights gained from the visualizations underscore the importance of continuous monitoring and support for maternal health.
+The analysis of maternal health risks in rural Bangladesh highlights significant health indicators that can impact pregnancy outcomes. Through this project, I aimed to uncover trends and correlations that can inform healthcare interventions. The insights gained from the visualizations underscore the importance of continuous monitoring and support for maternal health. For a more detailed conclusion and insights, please refer to the Jupyter Notebook associated with this analysis.
 
 ## 📄 References
 - Ahmed, M. (2020). Maternal Health Risk [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C5DP5D.
