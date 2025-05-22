@@ -143,7 +143,7 @@ The analysis of maternal health risks in rural Bangladesh highlights significant
 8. American Diabetes Association. (2021). "Standards of Medical Care in Diabetes—2021." *Diabetes Care*.
 9. Bansal, A., et al. (2019). "Heart rate variability and risk of pregnancy complications: A systematic review." *Journal of Clinical Medicine*.
 10. American Heart Association. (2020). "Cardiovascular disease and pregnancy: A scientific statement from the American Heart Association." *Circulation*.
-11. UCI Machine Learning Repository: Maternal Health Risk Dataset. [Link to dataset]([https://archive.ics.uci.edu/ml/datasets/maternal+health+risk+dataset](https://archive.ics.uci.edu/dataset/863/maternal+health+risk)).
+11. UCI Machine Learning Repository: Maternal Health Risk Dataset. [Link to dataset]([https://archive.ics.uci.edu/ml/datasets/maternal+health+risk+dataset]).
 
 Thank You!
 I would like to extend my heartfelt gratitude to everyone who contributed to this analysis and supported me throughout the process. Your insights, encouragement, and collaboration have been invaluable.
